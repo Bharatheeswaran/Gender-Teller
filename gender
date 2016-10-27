@@ -1,0 +1,8 @@
+import csv
+with open('FF.csv') as csvfile:
+    readCSV = csv.reader(csvfile, delimiter=',')
+v = input('')
+if v == readCSV:
+    print('Female')
+else:
+    print('Male')
